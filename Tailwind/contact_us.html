@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yamaha Motor Indonesia</title>
+    <link rel="shortcut icon" href="https://www.yamaha-motor.co.id/assets/frontend/images/favicon.ico">
+    <!-- TAILWIND -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Content Main default -->
+    <link rel="stylesheet" href="assets/style/styles.css">
+</head>
+
+<body>
+    <!-- start header Desktop -->
+    <div class="fixed z-40 w-full top-0 hidden lg:block">
+        <header class="hidden lg:block">
+            <nav class="bg-[#161316] flex justify-end w-full h-[53px] px-[13%] py-0" id="headernav">
+                <ul class="flex gap-10">
+                    <li class="my-auto">
+                        <a class="text-white hover:text-[#de2622]" href="#">MY YAMAHA MOTOR MEMBERS</a>
+                    </li>
+                    <li class="my-auto" id="head-btn3">
+                        <a class="text-white hover:text-[#de2622]" href="https://fti.unai.edu">FTI</a>
+                    </li>
+                    <li class="my-auto">
+                        <a class="text-white hover:text-[#de2622]" href="https://unai.edu">UNAI</a>
+                    </li>
+                    <li class="my-auto relative">
+                        <form method="get" action="#">
+                            <div class="relative">
+                                <input class="search-input" placeholder="Search" type="search" value="" name="keyword"
+                                    id="search">
+                                <button class="nobotton" id="navsearch" type="submit"><img
+                                        src="assets/images/Icon feather-search.png"></button>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- menu start -->
+        <nav class="hidden lg:flex h-[100px] bg-white h-[100px] shadow-[10px_20px_20px_0_rgba(0,0,0,0.16)] justify-between z-[46] px-[5%] py-0"
+            id="menunav">
+            <a href="/" class="navbar-brand">
+                <img id="ym-logo" src="assets/images/logo-sepeda-motor-yamaha-indonesia.png" alt="Yamaha Logo">
+            </a>
+            <ul class="h-full flex">
+                <li class="skew-x-[-15deg] transition-[background] duration-[0.5s] border-0 hover:bg-[#21a0e3] hover:bg-[linear-gradient(270deg,#21a0e3,#105aaa)] hover:transition-[background] hover:duration-[0.5s] px-[20px]"
+                    id="menu-btn1">
+                    <a class="nav-link flex items-center text-lg font-bold text-left text-[#182a61] h-full px-[26px];"
+                        href="#corporate" data-bs-toggle="collapse"><span
+                            class="skew-x-[15deg]">CORPORATE</span></i></a>
+                </li>
+                <li class="skew-x-[-15deg] transition-[background] duration-[0.5s] border-0 hover:bg-[#21a0e3] hover:bg-[linear-gradient(270deg,#21a0e3,#105aaa)] hover:transition-[background] hover:duration-[0.5s] px-[20px]"
+                    id="menu-btn2">
+                    <a class="nav-link flex items-center text-lg font-bold text-left text-[#182a61] h-full px-[26px];"
+                        href="#product" data-bs-toggle="collapse"><span class="skew-x-[15deg]">PRODUCTS</span></a>
+                </li>
+                <li class="skew-x-[-15deg] transition-[background] duration-[0.5s] border-0 hover:bg-[#21a0e3] hover:bg-[linear-gradient(270deg,#21a0e3,#105aaa)] hover:transition-[background] hover:duration-[0.5s] px-[20px]"
+                    id="menu-btn6">
+                    <a class="nav-link flex items-center text-lg font-bold text-left text-[#182a61] h-full px-[26px];"
+                        href="#dealer" data-bs-toggle="collapse"><span class="skew-x-[15deg]">DEALERS</span></a>
+                </li>
+                <li class="skew-x-[-15deg] transition-[background] duration-[0.5s] border-0 hover:bg-[#21a0e3] hover:bg-[linear-gradient(270deg,#21a0e3,#105aaa)] hover:transition-[background] hover:duration-[0.5s] px-[20px]"
+                    id="menu-btn4">
+                    <a class="nav-link flex items-center text-lg font-bold text-left text-[#182a61] h-full px-[26px];"
+                        href="#services" data-bs-toggle="collapse"><span class="skew-x-[15deg]">SERVICES</span></a>
+                </li>
+                <li class="skew-x-[-15deg] transition-[background] duration-[0.5s] border-0 hover:bg-[#21a0e3] hover:bg-[linear-gradient(270deg,#21a0e3,#105aaa)] hover:transition-[background] hover:duration-[0.5s] px-[20px]"
+                    id="menu-btn5">
+                    <a class="nav-link flex items-center text-lg font-bold text-left text-[#182a61] h-full px-[26px];"
+                        href="#partsAndAccessories" data-bs-toggle="collapse"><span
+                            class="skew-x-[15deg]">PARTS</span></a>
+                </li>
+                <li class="skew-x-[-15deg] transition-[background] duration-[0.5s] border-0 hover:bg-[#21a0e3] hover:bg-[linear-gradient(270deg,#21a0e3,#105aaa)] hover:transition-[background] hover:duration-[0.5s] px-[20px]"
+                    id="menu-btn7">
+                    <a class="nav-link flex items-center text-lg font-bold text-left text-[#182a61] h-full px-[26px];"
+                        href="https://unai.edu"><span class="skew-x-[15deg]">UNAI</span></a>
+                </li>
+                <li class="skew-x-[-15deg] transition-[background] duration-[0.5s] border-0 hover:bg-[#21a0e3] hover:bg-[linear-gradient(270deg,#21a0e3,#105aaa)] hover:transition-[background] hover:duration-[0.5s] px-[20px]"
+                    id="menu-btn3">
+                    <a class="nav-link flex items-center text-lg font-bold text-left text-[#182a61] h-full px-[26px];"
+                        href="https://fti.unai.edu"><span class="skew-x-[15deg]">FTI</span></a>
+                </li>
+            </ul>
+        </nav>
+        <!-- menu end -->
+    </div>
+    <!-- end header Desktop -->
+
+    <!-- start header phone -->
+    <div class="lg:hidden block ">
+        <!-- menu header -->
+        <div class="flex justify-between">
+            <a href="/">
+                <img class="w-16 h-[31.67px]" src="assets/images/logo-sepeda-motor-yamaha-indonesia.png">
+            </a>
+            <div class="flex items-center">
+                <a href="#head-main" data-bs-toggle="collapse"><img class="w-4 h-4 opacity-[0.99] mr-4"
+                        src="assets/images/Icon feather-search-ph.png"></a>
+                <a href="#head-main" data-bs-toggle="collapse"><img class="w-[22px] h-[22.67px] "
+                        src="assets/images/menu.png"></a>
+            </div>
+        </div>
+    </div>
+    <!-- end header phone -->
+
+    <!-- sidebar start -->
+    <div id="sider-div" class="sider-show">
+        <a class="sider-btn" href="index.html">
+            <img class="sider-icon" src="assets/images/icon-group.png">
+            <p class="sider-txt">Home</p>
+        </a>
+        <a class="sider-btn" href="biodata.html">
+            <img class="sider-icon" src="assets/images/Icon metro-location.png">
+            <p class="sider-txt">Biodata</p>
+        </a>
+        <a class="sider-btn" href="contact_us.html">
+            <img class="sider-icon" src="assets/images/Icon ionic-ios-calculator.png">
+            <p class="sider-txt">Contact Us</p>
+        </a>
+        <a class="sider-btn" href="jadwal.html">
+            <img class="sider-icon" src="assets/images/icon-headphone.png">
+            <p class="sider-txt">Jadwal</p>
+        </a>
+        <img class="sider-icon show-pc-f" src="assets/images/Icon ionic-ios-arrow-back.png" id="sider-arrow">
+    </div>
+    <!-- sidebar end -->
+
+    <!-- main contents -->
+    <!-- main containt -->
+<main class="pt-[15%]">
+   
+<div class="w-[80%] shadow-[2px_2px_5px_24px_#f5999978] m-auto">
+    <p class="text-[2.5rem] text-center font-[500] leading-[1.2] mb-[0.5rem]"> Contact Us</p>
+    <form name="myForm" onsubmit="return validasi()" action="validate.php" method="post">
+        <div class="flex flex-col w-[90%] m-auto pb-[10px]">
+            <label for="full_name">
+                <h3>Full Name :</h3>
+            </label>
+            <input type="text" id="full_name" name="full_name" class="border p-2"><br>
+
+            <label for="email">
+                <h3>E-mail :</h3>
+            </label>
+            <input type="email" id="email" name="email" class="border p-2"><br>
+
+            <label for="username">
+                <h3>Username :</h3>
+            </label>
+            <input type="text" id="username" name="username" class="border p-2"><br>
+
+            <label for="password">
+                <h3>Password :</h3>
+            </label>
+            <input type="password" id="password" name="password" class="border p-2"><br>
+
+            <label>
+                <h3>Gender :</h3>
+            </label>
+            <div class="flex space-x-2">
+                <input type="radio" id="male" name="gender" value="male" class="mr-1">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" class="mr-1">
+                <label for="female">Female</label>
+            </div>
+
+            <label for="religion">
+                <h3>Religion :</h3>
+            </label>
+            <select id="religion" name="religion" class="border p-2">
+                <option value="Islam">Islam</option>
+                <option value="Christianity (Protestant and Catholic)">Christianity (Protestant and Catholic)</option>
+                <option value="Hinduism">Hinduism</option>
+                <option value="buddhism">Buddhism</option>
+                <option value="Confucianism">Confucianism</option>
+            </select><br>
+
+            <label for="address">
+                <h3>Address :</h3>
+            </label><br>
+            <textarea id="address" name="address" rows="4" cols="50" class="border p-2"></textarea><br>
+
+            <label>
+                <h3>Pilih Hobi :</h3>
+            </label>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-[50%] ">
+                    <input type="checkbox" name="checkbox" id="membaca" value="Membaca" class="mr-1">
+                    <label for="membaca">Membaca</label>
+                </div>
+                <div class="md:w-[50%]">
+                    <input type="checkbox" name="checkbox" id="ngoding" value="Ngoding" class="mr-1">
+                    <label for="ngoding">Ngoding</label>
+                </div>
+                <div class="md:w-[50%]"> <input type="checkbox" name="checkbox" id="olahraga" value="Olahraga" class="mr-1">
+                <label for="olahraga">Olahraga</label></div>
+                <div class="md:w-[50%]">
+                    <input type="checkbox" name="checkbox" id="bernyanyi" value="Bernyanyi" class="mr-1">
+                    <label for="bernyanyi">Bernyanyi</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="checkbox" id="bermusik" value="Bermusik" class="">
+                    <label for="bermusik">Bermusik</label>
+                </div>
+            </div>
+            <button type="submit" class="bg-blue-500 text-white cursor-pointer w-[100px] p-[10px] rounded-[10px]">Submit</button>
+        </div>
+    </form>
+    </div>
+</main>
+
+    <!-- end main content -->
+    <!-- end main content -->
+
+    <!-- footer start -->
+    <footer>
+        <div class="w-full">
+            <div class="h-[65px] flex justify-between items-center px-[16%] py-0 bg-[blue]">
+                <div class="w-auto leading-[33px] text-[25px] font-normal text-left text-neutral-100 px-0">
+                    FOLLOW OUR CHANNEL
+                </div>
+                <div class="w-[180px] flex justify-between px-0 md: w-[30%]">
+                    <a href="#" class="text-[40px] text-neutral-100 flex items-center hover:text-neutral-100"><img
+                            class="footer-firstrow-fa" src="assets/images/Icon awesome-twitter.png"></a>
+                    <a href="#" class="text-[40px] text-neutral-100 flex items-center hover:text-neutral-100"><img
+                            class="footer-firstrow-fa" src="assets/images/Icon awesome-instagram.png"></a>
+                    <a href="#" class="text-[40px] text-neutral-100 flex items-center hover:text-neutral-100"><img
+                            class="footer-firstrow-fa" src="assets/images/Icon awesome-facebook-f.png"></a>
+                    <a href="#" class="text-[40px] text-neutral-100 flex items-center hover:text-neutral-100"><img
+                            class="footer-firstrow-fa" src="assets/images/Icon awesome-youtube.png"></a>
+                </div>
+            </div>
+            <div class="h-auto flex justify-between px-[14%] py-[50px] bg-[#262626] flex-col md:flex-row gap-10">
+                <ul>
+                    <li><a class="font-[600] text-white" href="#">CORPORATE</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">TWO YAMAHAS ONE PASSION</a>
+                    </li>
+                    <li><a href="#">YAMAHA EV</a></li>
+                    <li><a href="#">YAMAHA
+                            GLOBAL<img src="assets/images/Icon feather-external-link-footer.png"></a>
+                    </li>
+                    <li><a href="#">CAREER</a></li>
+                </ul>
+                <ul>
+                    <li><a class="font-[600] text-white" href="#">PRODUCTS</a></li>
+                    <li><a href="#">MAXI</a></li>
+                    <li><a href="#">CLASSY</a></li>
+                    <li><a href="#">MATIC</a></li>
+                    <li><a href="#">SPORT</a></li>
+                    <li><a href="#">OFF-ROAD</a></li>
+                    <li><a href="#">MOPED</a></li>
+                    <li><a href="#">POWER PRODUCT</a></li>
+                </ul>
+                <ul>
+                    <li><a class="font-[600] text-white" href="#">DEALERS</a></li>
+                    <li><a href="#">FIND DEALER</a></li>
+                    <li><a href="#">ONLINE SHOP</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">YAMAHA APPS</a></li>
+                </ul>
+                <ul>
+                    <li><a class="font-[600] text-white">PARTS</a></li>
+                    <li><a href="#">YAMAHA GENUINE PARTS</a></li>
+                    <li><a href="#">YAMALUBE</a></li>
+                    <li><a href="#">HELMET</a></li>
+                    <li><a href="#">APPAREL</a></li>
+                    <li><a href="#">ACCESSORIES</a></li>
+                </ul>
+                <ul>
+                    <li class="font-[600] text-white"><a href="#">FILMS</a></li>
+                    <li class="font-[600] text-white"><a href="#">RACING</a></li>
+                    <li class="font-[600] text-white"><a href="#">MY
+                            YAMAHA MOTOR MEMBERS</a></li>
+                </ul>
+                <ul>
+                    <li><a class="font-[600] text-white">ACTIVITY</a></li>
+                    <li><a href="#">NEWS & EVENT</a></li>
+                    <li><a href="#">bLU cRU</a></li>
+                    <li><a href="#">COMMUNITY</a></li>
+                    <li><a href="#">JINGLE COMPETITION</a></li>
+                </ul>
+                <ul class="w-[400px]">
+                    <li class="footer-bold-links"><a href="#">HELP
+                            CENTER</a></li>
+                    <div class="w-auto h-[74px] bg-[#187bc4] rounded-[17px] flex flex-col p-[0_22px]">
+                        <a class="footer-secondrow-tel" href="#">
+                            <div class="footer-2ricon-out">
+                                <img class="footer-2ricon-in" src="assets/images/tel.png">
+                            </div>
+                            021 2457 5555
+                        </a>
+                        <a class="h-[15px] text-[11px] font-[400] text-left text-white leading-[14px] flex align-items-center my-auto"
+                            href="#">
+                            <div class="footer-2ricon-out">
+                                <img class="footer-2ricon-in" src="assets/images/mail.png">
+                            </div>
+                            contact_center@yamaha-motor.co.id
+                        </a>
+                    </div>
+                </ul>
+            </div>
+            <div class="row footer-finalrow">
+                Copyright © 2023 Yamaha Indonesia Motor Mfg. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- script js default -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

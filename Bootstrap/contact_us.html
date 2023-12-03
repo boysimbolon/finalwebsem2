@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yamaha Motor Indonesia</title>
+    <link rel="shortcut icon" href="https://www.yamaha-motor.co.id/assets/frontend/images/favicon.ico">
+    <!-- Core CSS and JS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <!-- Content Main default -->
+    <link rel="stylesheet" href="assets/style/styles.css">
+</head>
+
+<body>
+    <!-- start header Desktop -->
+    <div class="head-float-div show-pc-h">
+        <header class="show-pc-h">
+            <nav class="navbar navbar-expand-sm" id="headernav">
+                <ul class="navbar-nav head-navbar">
+                    <li class="nav-item head-li">
+                        <a class="nav-link head-link" href="#">MY YAMAHA MOTOR MEMBERS</a>
+                    </li>
+                    <li class="nav-item head-li" id="head-btn3">
+                        <a class="nav-link head-link" href="https://fti.unai.edu" data-bs-toggle="collapse">FTI</a>
+                    </li>
+                    <li class="nav-item head-li">
+                        <a class="nav-link head-link" href="https://unai.edu">UNAI</a>
+                    </li>
+                    <li class="nav-item head-link">
+                        <form class="form-inline" method="get" action="#">
+                            <div class="pos-rel">
+                                <input class="search-input" placeholder="Search" type="search" value="" name="keyword"
+                                    id="search">
+                                <button class="nobotton" id="navsearch" type="submit"><img
+                                        src="assets/images/Icon feather-search.png"></button>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- menu start -->
+        <nav class="navbar navbar-expand-sm show-pc-h" id="menunav">
+            <a href="/" class="navbar-brand">
+                <img id="ym-logo" src="assets/images/logo-sepeda-motor-yamaha-indonesia.png" alt="Yamaha Logo">
+            </a>
+            <ul class="navbar-nav menu-ul nav-tabs">
+                <li class="nav-item menu-item" id="menu-btn1">
+                    <a class="nav-link menu-link" href="#corporate" data-bs-toggle="collapse"><span
+                            class="menu-link-txt">CORPORATE</span></i></a>
+                </li>
+                <li class="nav-item menu-item" id="menu-btn2">
+                    <a class="nav-link menu-link" href="#product" data-bs-toggle="collapse"><span
+                            class="menu-link-txt">PRODUCTS</span></a>
+                </li>
+                <li class="nav-item menu-item" id="menu-btn6">
+                    <a class="nav-link menu-link" href="#dealer" data-bs-toggle="collapse"><span
+                            class="menu-link-txt">DEALERS</span></a>
+                </li>
+                <li class="nav-item menu-item" id="menu-btn4">
+                    <a class="nav-link menu-link" href="#services" data-bs-toggle="collapse"><span
+                            class="menu-link-txt">SERVICES</span></a>
+                </li>
+                <li class="nav-item menu-item" id="menu-btn5">
+                    <a class="nav-link menu-link" href="#partsAndAccessories" data-bs-toggle="collapse"><span
+                            class="menu-link-txt">PARTS</span></a>
+                </li>
+                <li class="nav-item menu-item" id="menu-btn7">
+                    <a class="nav-link menu-link" href="#"><span class="menu-link-txt">RACING</span></a>
+                </li>
+                <li class="nav-item menu-item" id="menu-btn3">
+                    <a class="nav-link menu-link" href="#"><span class="menu-link-txt">FILMS</span></a>
+                </li>
+            </ul>
+        </nav>
+        <div class="show-pc-h" id="menucol-div">
+            <!-- menu kolom corporate -->
+            <div id="corporate" class="collapse menucol">
+                <div class="menucol-left">
+                    <p class="menucol-title">CORPORATE</p>
+                </div>
+                <!-- menucolom dari corporate -->
+                <div class="menucol-right">
+                    <ul class="menucol-right-ul">
+                        <li class="menucol-right-li"><a class="menucol-right-a" href="#">ABOUT US</a>
+                        </li>
+                        <li class="menucol-right-li"><a class="menucol-right-a" href="#">TWO
+                                YAMAHAS ONE
+                                PASSION</a></li>
+                        <li class="menucol-right-li"><a class="menucol-right-a" href="#">YAMAHA EV</a></li>
+                        <li class="menucol-right-li"><a class="menucol-right-a" href="#">CAREERS</a>
+                        </li>
+                        <li class="menucol-right-li"><a class="menucol-right-a" href="#">YAMAHA GLOBAL <img
+                                    src="assets/images/Icon feather-external-link_blue.png"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- menu kolom Produk -->
+            <div id="product" class="collapse">
+                <div class="container-fluid">
+                    <div class="row product-icon-row">
+                        <div class="product-icon-box" id="Maxi" data-src="13">
+                            <img class="product-icon" src="assets/images/icon6.png">
+                            <p class="product-icon-text">MAXi</p>
+                        </div>
+                        <div class="product-icon-box active" id="Classy" data-src="17">
+                            <img class="product-icon" src="assets/images/icon7.png">
+                            <p class="product-icon-text">Classy</p>
+                        </div>
+                        <div class="product-icon-box" id="Matic" data-src="2">
+                            <img class="product-icon" src="assets/images/icon1.png">
+                            <p class="product-icon-text">Matic</p>
+                        </div>
+                        <div class="product-icon-box" id="Sport" data-src="5">
+                            <img class="product-icon" src="assets/images/icon2.png">
+                            <p class="product-icon-text">Sport</p>
+                        </div>
+                        <div class="product-icon-box" id="Off-Road" data-src="15">
+                            <img class="product-icon" src="assets/images/icon3.png">
+                            <p class="product-icon-text">Off-Road</p>
+                        </div>
+                        <div class="product-icon-box" id="Moped" data-src="4">
+                            <img class="product-icon" src="assets/images/icon4.png">
+                            <p class="product-icon-text">Moped</p>
+                        </div>
+                        <div class="product-icon-box" id="Power Product" data-src="pp">
+                            <img class="product-icon product-icon-pp" src="assets/images/icon5.png">
+                            <p class="product-icon-text">Power Product</p>
+                        </div>
+                    </div>
+                    <!--start Swiper product -->
+                    <div class="row product-swiper-row">
+                        <div id="product-swiper-btn-L">
+                            <img src="assets/images/Icon ionic-ios-arrow-dropleft.png">
+                        </div>
+                        <div id="product-swiper-btn-R">
+                            <img src="assets/images/Icon ionic-ios-arrow-dropright.png">
+                        </div>
+                    </div>
+                    <!--end swiper product -->
+                </div>
+            </div>
+            <!-- menu kolom Service -->
+            <div id="services" class="collapse menucol">
+                <div class="menucol-left">
+                    <p class="menucol-title">SERVICES</p>
+                </div>
+                <!-- menu kolom isi dari service -->
+                <div class="menucol-right">
+                    <ul class="menucol-right-ul">
+                        <li class="menucol-right-li"><a class="menucol-right-a" href="#">SERVICES</a></li>
+                        <li class="menucol-right-li"><a class="menucol-right-a" href="#">YAMAHA APPS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- start Kolom menu Parts -->
+            <div id="partsAndAccessories" class="collapse">
+                <div class="menucol-left">
+                    <p class="menucol-title">PARTS & ACCESSORIES</p>
+                </div>
+                <!-- menu kolom bagian isinya parts -->
+                <div class="menucol-right">
+                    <ul class="menucol-right-ul">
+                        <li class="menucol-right-li"><a class="menucol-right-a" href="#">YAMAHA
+                                GENUINE PARTS</a>
+                        </li>
+                        <li class="menucol-right-li"><a class="menucol-right-a" href="#">YAMALUBE</a></li>
+                        <li class="menucol-right-li"><a class="menucol-right-a" href="#">HELMET</a></li>
+                        <li class="menucol-right-li"><a class="menucol-right-a" href="#">APPAREL</a></li>
+                        <li class="menucol-right-li"><a class="menucol-right-a" href="#">ACCESSORIES</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end kolom menu parts -->
+            <!-- start kolom dealer -->
+            <div id="dealer" class="collapse menucol">
+                <div class="menucol-left">
+                    <p class="menucol-title">DEALER</p>
+                </div>
+                <!-- Bagian kolom isinya dealer -->
+                <div class="menucol-right">
+                    <ul class="menucol-right-ul">
+                        <li class="menucol-right-li"><a class="menucol-right-a" href="#">FIND DEALER</a></li>
+                        <li class="menucol-right-li"><a class="menucol-right-a" href="#">ONLINE SHOP</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end kolom dealer -->
+            <!-- start Kolom activity -->
+            <div id="activity" class="collapse menucol">
+                <div class="menucol-left">
+                    <p class="menucol-title">ACTIVITY</p>
+                </div>
+                <!-- bagian kolom isinya activity -->
+                <div class="menucol-right">
+                    <ul class="menucol-right-ul">
+                        <li class="menucol-right-li"><a class="menucol-right-a" href="#">News</a></li>
+                        <li class="menucol-right-li"><a class="menucol-right-a" href="#">bLU cRU</a></li>
+                        <li class="menucol-right-li"><a class="menucol-right-a" href="#">Event</a></li>
+                        <li class="menucol-right-li"><a class="menucol-right-a" href="#">YAMAHA JINGLE
+                                COMPETITION</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end kolom activity -->
+        </div>
+        <!-- menu end -->
+    </div>
+    <!-- end header Desktop -->
+
+    <!-- start header phone -->
+    <div class="show-ph-h header-firts-keep">
+        <!-- menu header -->
+        <div class="header-first">
+            <a href="/">
+                <img class="header-logo" src="assets/images/logo-sepeda-motor-yamaha-indonesia.png">
+            </a>
+            <div class="header-right">
+                <a href="#head-main" data-bs-toggle="collapse"><img class="header-btn-search"
+                        src="assets/images/Icon feather-search-ph.png"></a>
+                <a href="#head-main" data-bs-toggle="collapse"><img class="header-btn-menu"
+                        src="assets/images/menu.png"></a>
+            </div>
+        </div>
+    </div>
+    <!-- end header phone -->
+
+    <!-- start collapse header -->
+    <div class="head-main collapse" id="head-main">
+        <div>
+            <!-- button collapse menu -->
+            <div class="head-main-firstrow">
+                <form class="form-inline" method="get" action="#">
+                    <div class="pos-rel">
+                        <input class="header-search" placeholder="Search" type="search" value="" name="keyword"
+                            id="search">
+                        <button class="nobotton" id="navsearch" type="submit"><img
+                                src="assets/images/Icon feather-search2.png"></button>
+                    </div>
+                </form>
+                <a href="#head-main" data-bs-toggle="collapse"><img class="header-btn-close"
+                        src="assets/images/Icon ionic-ios-close-circle.png"></a>
+
+            </div>
+            <!-- end collapse menu -->
+            <!-- start kolom collapse dari menu  -->
+            <ul class="head-main-ul">
+                <li class="head-main-li clicked-bg" id="menu-p-btn1">
+                    <a class="head-link" href="#">
+                        <p class="head-link-p">HOME</p>
+                    </a>
+                </li>
+                <li class="head-main-li clicked-bg" id="menu-p-btn2">
+                    <a class="head-link" href="#corporate-ph" data-bs-toggle="collapse">
+                        <p class="head-link-p">CORPORATE</p><img class="head-link-arrow"
+                            src="assets/images/Icon material-keyboard-arrow-left.png">
+                    </a>
+                </li>
+                <li class="head-main-li collapse head-main-col" id="corporate-ph" data-bs-parent="#head-main">
+                    <ul class="head-second-ul">
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#">TWO
+                                YAMAHAS ONE PASSION</a>
+                        </li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#">YAMAHA EV</a></li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#">CAREERS</a>
+                        </li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#">YAMAHA
+                                GLOBAL <img class="head-link-external"
+                                    src="assets/images/Icon feather-external-link2.png"></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="head-main-li clicked-bg" id="menu-p-btn3">
+                    <a class="head-link" href="#products-ph" data-bs-toggle="collapse">
+                        <p class="head-link-p">PRODUCTS</p><img class="head-link-arrow"
+                            src="assets/images/Icon material-keyboard-arrow-left.png">
+                    </a>
+                </li>
+                <li class="head-main-li collapse head-main-col" id="products-ph" data-bs-parent="#head-main">
+                    <ul class="head-second-ul">
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#"><img class="headph-img"
+                                    src="assets/images/headph-maxi.jpg"></a>
+                            <p class="headph-img-p">MAXI</p>
+                        </li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#"><img class="headph-img"
+                                    src="assets/images/headph-classy.jpg"></a>
+                            <p class="headph-img-p">CLASSY</p>
+                        </li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#"><img class="headph-img"
+                                    src="assets/images/headph-matic.jpg"></a>
+                            <p class="headph-img-p">MATIC</p>
+                        </li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#"><img class="headph-img"
+                                    src="assets/images/headph-sport.jpg"></a>
+                            <p class="headph-img-p">SPORT</p>
+                        </li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#"><img class="headph-img"
+                                    src="assets/images/headph-off-road.jpg"></a>
+                            <p class="headph-img-p">OFF-ROAD</p>
+                        </li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#"><img class="headph-img"
+                                    src="assets/images/headph-moped.jpg"></a>
+                            <p class="headph-img-p">MOPED</p>
+                        </li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#"><img class="headph-img"
+                                    src="assets/images/headph-powerproduct.jpg"></a>
+                            <p class="headph-img-p">POWER PRODUCT</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="head-main-li clicked-bg" id="menu-p-btn8">
+                    <a class="head-link" href="#dealers-ph" data-bs-toggle="collapse">
+                        <p class="head-link-p">DEALERS</p><img class="head-link-arrow"
+                            src="assets/images/Icon material-keyboard-arrow-left.png">
+                    </a>
+                </li>
+                <li class="head-main-li collapse head-main-col" id="dealers-ph" data-bs-parent="#head-main">
+                    <ul class="head-second-ul">
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#">FIND DEALER</a></li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#">ONLINE SHOP</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="head-main-li clicked-bg" id="menu-p-btn5">
+                    <a class="head-link" href="#service-ph" data-bs-toggle="collapse">
+                        <p class="head-link-p">SERVICES</p><img class="head-link-arrow"
+                            src="assets/images/Icon material-keyboard-arrow-left.png">
+                    </a>
+                </li>
+                <li class="head-main-li collapse head-main-col" id="service-ph" data-bs-parent="#head-main">
+                    <ul class="head-second-ul">
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#">SERVICE</a></li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#">YAMAHA APPS</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="head-main-li clicked-bg" id="menu-p-btn6">
+                    <a class="head-link" href="#partsandaccessories-ph" data-bs-toggle="collapse">
+                        <p class="head-link-p">PARTS</p><img class="head-link-arrow"
+                            src="assets/images/Icon material-keyboard-arrow-left.png">
+                    </a>
+                </li>
+                <li class="head-main-li collapse head-main-col" id="partsandaccessories-ph" data-bs-parent="#head-main">
+                    <ul class="head-second-ul">
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#">YAMAHA
+                                GENUINE PARTS</a></li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#">YAMALUBE</a></li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#">HELMET</a></li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#">APPAREL</a></li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#">ACCESSORIES</a></li>
+                    </ul>
+                </li>
+                <li class="head-main-li clicked-bg">
+                    <a class="head-link" href="#">
+                        <p class="head-link-p">RACING</p>
+                    </a>
+                </li>
+                <li class="head-main-li clicked-bg" id="menu-p-btn4">
+                    <a class="head-link" href="#">
+                        <p class="head-link-p">FILMS</p>
+                    </a>
+                </li>
+                <li class="head-main-li clicked-bg" id="menu-p-btn9">
+                    <a class="head-link" href="#">
+                        <p class="head-link-p">MY YAMAHA MOTOR MEMBERS</p>
+                    </a>
+                </li>
+                <li class="head-main-li clicked-bg" id="menu-p-btn10">
+                    <a class="head-link" href="#activity-ph" data-bs-toggle="collapse">
+                        <p class="head-link-p">ACTIVITY</p><img class="head-link-arrow"
+                            src="assets/images/Icon material-keyboard-arrow-left.png">
+                    </a>
+                </li>
+                <li class="head-main-li collapse head-main-col" id="activity-ph" data-bs-parent="#head-main">
+                    <ul class="head-second-ul">
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#">News</a></li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#">bLU cRU</a></li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#">Event</a></li>
+                        <li class="head-second-li clicked-bg"><a class="head-link" href="#">JINGLE
+                                COMPETITION</a></li>
+                    </ul>
+                </li>
+                <li class="head-main-li clicked-bg" id="menu-p-btn11">
+                    <a class="head-link" href="#">
+                        <p class="head-link-p">HELP CENTER</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="header-out-row">
+            <a class="head-link" href="#"><img class="header-out-icon"
+                    src="assets/images/Icon awesome-twitter-blue.png"></a>
+            <a class="head-link" href="#"><img class="header-out-icon"
+                    src="assets/images/Icon awesome-instagram-blue.png"></a>
+            <a class="head-link" href="#"><img class="header-out-icon"
+                    src="assets/images/Icon awesome-facebook-f-blue.png"></a>
+            <a class="head-link" href="#"><img class="header-out-icon"
+                    src="assets/images/Icon awesome-youtube-blue.png"></a>
+        </div>
+    </div>
+    <!-- end collapse header -->
+
+    <!-- sidebar start -->
+    <div id="sider-div" class="sider-show">
+        <a class="sider-btn" href="index.html">
+            <img class="sider-icon" src="assets/images/icon-group.png">
+            <p class="sider-txt">Home</p>
+        </a>
+        <a class="sider-btn" href="biodata.html">
+            <img class="sider-icon" src="assets/images/Icon metro-location.png">
+            <p class="sider-txt">Biodata</p>
+        </a>
+        <a class="sider-btn" href="contact_us.html">
+            <img class="sider-icon" src="assets/images/Icon ionic-ios-calculator.png">
+            <p class="sider-txt">Contact Us</p>
+        </a>
+        <a class="sider-btn" href="jadwal.html">
+            <img class="sider-icon" src="assets/images/icon-headphone.png">
+            <p class="sider-txt">Jadwal</p>
+        </a>
+        <img class="sider-icon show-pc-f" src="assets/images/Icon ionic-ios-arrow-back.png" id="sider-arrow">
+    </div>
+    <!-- sidebar end -->
+
+    <!-- main contents -->
+    <!-- main containt -->
+    <main>
+    <div class="container-contact container">
+        <div class="contact container">
+            <h1>Contact Us</h1>
+            <form name="myForm" action="contact.php" onsubmit="return validasi()" method="post">
+                <div class="form-group">
+                    <label for="name">Fullname</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Fullname" >
+                </div>
+                <div class="form-group">
+                    <label for="e-mail">E-mail</label>
+                    <input type="email" class="form-control" name="e-mail" id="e-mail" placeholder="E-mail" >
+                </div>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" name="username" id="username" placeholder="Username" >
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Password"
+                        >
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="gender" id="male" value="laki-laki" >
+                        <label class="form-check-label" for="male">Laki-laki</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="gender" id="female" value="Perempuan" >
+                        <label class="form-check-label" for="female">Perempuan</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="religion">Religion</label>
+                    <select class="form-control" name="religion" id="religion" >
+                        <option value="Kristen">Kristen</option>
+                        <option value="Islam">Islam</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Katolik">Katolik</option>
+                        <option value="Buddha">Buddha</option>
+                        <option value="KongHucu">KongHucu</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="address">Alamat</label>
+                    <textarea class="form-control" name="address" id="address" rows="3" ></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Pilih Hobi</label>
+                    <div class="row">
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="reading" name="checkbox">
+                                <label class="form-check-label" for="reading">Membaca</label>
+                            </div>
+                        </div>
+                
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="coding" name="checkbox">
+                                <label class="form-check-label" for="coding">Ngoding</label>
+                            </div>
+                        </div>
+                
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="sports" name="checkbox">
+                                <label class="form-check-label" for="sports">Olahraga</label>
+                            </div>
+                        </div>
+                
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="singing" name="checkbox">
+                                <label class="form-check-label" for="singing">Bernyanyi</label>
+                            </div>
+                        </div>
+                
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="music" name="checkbox">
+                                <label class="form-check-label" for="music">Bermusik</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    </main>
+    <!-- end main content -->
+
+    <!-- footer start -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row footer-firstrow">
+                <div class="footer-firstrow-left">
+                    FOLLOW OUR CHANNEL
+                </div>
+                <div class="footer-firstrow-right">
+                    <a href="#" class="footer-firstrow-icon"><img class="footer-firstrow-fa"
+                            src="assets/images/Icon awesome-twitter.png"></a>
+                    <a href="#" class="footer-firstrow-icon"><img class="footer-firstrow-fa"
+                            src="assets/images/Icon awesome-instagram.png"></a>
+                    <a href="#" class="footer-firstrow-icon"><img class="footer-firstrow-fa"
+                            src="assets/images/Icon awesome-facebook-f.png"></a>
+                    <a href="#" class="footer-firstrow-icon"><img class="footer-firstrow-fa"
+                            src="assets/images/Icon awesome-youtube.png"></a>
+                </div>
+            </div>
+            <div class="row footer-secondrow">
+                <ul class="footer-secondrow-ul show-pc-f">
+                    <li><a class="footer-secondrow-link footer-secondrow-bold" href="#">CORPORATE</a></li>
+                    <li><a class="footer-secondrow-link" href="#">ABOUT US</a></li>
+                    <li><a class="footer-secondrow-link" href="#">TWO YAMAHAS ONE PASSION</a>
+                    </li>
+                    <li><a class="footer-secondrow-link" href="#">YAMAHA EV</a></li>
+                    <li><a class="footer-secondrow-link" href="#">YAMAHA
+                            GLOBAL<img src="assets/images/Icon feather-external-link-footer.png"></a>
+                    </li>
+                    <li><a class="footer-secondrow-link" href="#">CAREER</a></li>
+                </ul>
+                <ul class="footer-secondrow-ul show-pc-f">
+                    <li><a class="footer-secondrow-link footer-secondrow-bold" href="#">PRODUCTS</a></li>
+                    <li><a class="footer-secondrow-link" href="#">MAXI</a></li>
+                    <li><a class="footer-secondrow-link" href="#">CLASSY</a></li>
+                    <li><a class="footer-secondrow-link" href="#">MATIC</a></li>
+                    <li><a class="footer-secondrow-link" href="#">SPORT</a></li>
+                    <li><a class="footer-secondrow-link" href="#">OFF-ROAD</a></li>
+                    <li><a class="footer-secondrow-link" href="#">MOPED</a></li>
+                    <li><a class="footer-secondrow-link" href="#">POWER PRODUCT</a></li>
+                </ul>
+                <ul class="footer-secondrow-ul show-pc-f">
+                    <li><a class="footer-secondrow-link footer-secondrow-bold" href="#">DEALERS</a></li>
+                    <li><a class="footer-secondrow-link" href="#">FIND DEALER</a></li>
+                    <li><a class="footer-secondrow-link" href="#">ONLINE SHOP</a></li>
+                    <li><a class="footer-secondrow-link footer-secondrow-bold" href="#">SERVICES</a></li>
+                    <li><a class="footer-secondrow-link" href="#">SERVICE</a></li>
+                    <li><a class="footer-secondrow-link" href="#">YAMAHA APPS</a></li>
+                </ul>
+                <ul class="footer-secondrow-ul show-pc-f">
+                    <li><a class="footer-secondrow-link footer-secondrow-bold">PARTS</a></li>
+                    <li><a class="footer-secondrow-link" href="#">YAMAHA GENUINE PARTS</a></li>
+                    <li><a class="footer-secondrow-link" href="#">YAMALUBE</a></li>
+                    <li><a class="footer-secondrow-link" href="#">HELMET</a></li>
+                    <li><a class="footer-secondrow-link" href="#">APPAREL</a></li>
+                    <li><a class="footer-secondrow-link" href="#">ACCESSORIES</a></li>
+                </ul>
+                <ul class="footer-secondrow-ul show-pc-f">
+                    <li class="footer-bold-links"><a class="footer-secondrow-link footer-secondrow-bold"
+                            href="#">FILMS</a></li>
+                    <li class="footer-bold-links"><a class="footer-secondrow-link footer-secondrow-bold"
+                            href="#">RACING</a></li>
+                    <li class="footer-bold-links"><a class="footer-secondrow-link footer-secondrow-bold" href="#">MY
+                            YAMAHA MOTOR MEMBERS</a></li>
+                </ul>
+                <ul class="footer-secondrow-ul show-pc-f">
+                    <li><a class="footer-secondrow-link footer-secondrow-bold">ACTIVITY</a></li>
+                    <li><a class="footer-secondrow-link" href="#">NEWS & EVENT</a></li>
+                    <li><a class="footer-secondrow-link" href="#">bLU cRU</a></li>
+                    <li><a class="footer-secondrow-link" href="#">COMMUNITY</a></li>
+                    <li><a class="footer-secondrow-link" href="#">JINGLE COMPETITION</a></li>
+                </ul>
+                <ul class="footer-secondrow-ul show-pc-f">
+                    <li class="footer-bold-links"><a class="footer-secondrow-link footer-secondrow-bold" href="#">HELP
+                            CENTER</a></li>
+                    <div class="footer-secondrow-contact">
+                        <a class="footer-secondrow-tel" href="#">
+                            <div class="footer-2ricon-out">
+                                <img class="footer-2ricon-in" src="assets/images/tel.png">
+                            </div>
+                            021 2457 5555
+                        </a>
+                        <a class="footer-secondrow-mail" href="#">
+                            <div class="footer-2ricon-out">
+                                <img class="footer-2ricon-in" src="assets/images/mail.png">
+                            </div>
+                            contact_center@yamaha-motor.co.id
+                        </a>
+                    </div>
+                </ul>
+
+                <div class="footer-secondrow-div show-ph-f">
+                    <a class="footer-secondrow-a" href="#corporate-f" data-bs-toggle="collapse">
+                        <div class="footer-secondrow-row">
+                            <p class="footer-secondrow-title">CORPORATE</p>
+                            <p class="footer-secondrow-plus">+</p>
+                        </div>
+                    </a>
+                    <div class="footer-secondrow-row collapse" id="corporate-f" data-bs-parent=".footer-secondrow-div">
+                        <ul class="footer-secondrow-ul footer-inner-ul">
+                            <li><a class="footer-secondrow-a" href="#">ABOUT US</a></li>
+                            <li><a class="footer-secondrow-a" href="#">TWO YAMAHAS ONE
+                                    PASSION</a></li>
+                            <li><a class="footer-secondrow-a" href="#">YAMAHA EV</a></li>
+                            <li><a class="footer-secondrow-a" href="#">YAMAHA GLOBAL<img
+                                        src="assets/images/Icon feather-external-link-footer.png"></a>
+                            </li>
+                            <li><a class="footer-secondrow-a" href="#">CAREER</a></li>
+                        </ul>
+                    </div>
+                    <a class="footer-secondrow-a" href="#products-f" data-bs-toggle="collapse">
+                        <div class="footer-secondrow-row">
+                            <p class="footer-secondrow-title">PRODUCTS</p>
+                            <p class="footer-secondrow-plus">+</p>
+                        </div>
+                    </a>
+                    <div class="footer-secondrow-row collapse" id="products-f" data-bs-parent=".footer-secondrow-div">
+                        <ul class="footer-secondrow-ul footer-inner-ul">
+                            <li><a class="footer-secondrow-a" href="#">MAXI</a></li>
+                            <li><a class="footer-secondrow-a" href="#">CLASSY</a></li>
+                            <li><a class="footer-secondrow-a" href="#">MATIC</a></li>
+                            <li><a class="footer-secondrow-a" href="#">SPORT</a></li>
+                            <li><a class="footer-secondrow-a" href="#">OFF-ROAD</a></li>
+                            <li><a class="footer-secondrow-a" href="#">MOPED</a></li>
+                            <li><a class="footer-secondrow-a" href="#">POWER PRODUCT</a></li>
+                        </ul>
+                    </div>
+
+                    <a class="footer-secondrow-a" href="#dealers-f" data-bs-toggle="collapse">
+                        <div class="footer-secondrow-row">
+                            <p class="footer-secondrow-title">DEALERS</p>
+                            <p class="footer-secondrow-plus">+</p>
+                        </div>
+                    </a>
+
+                    <div class="footer-secondrow-row collapse" id="dealers-f" data-bs-parent=".footer-secondrow-div">
+                        <ul class="footer-secondrow-ul footer-inner-ul">
+                            <li><a class="footer-secondrow-a" href="#">FIND DEALER</a></li>
+                            <li><a class="footer-secondrow-a" href="#">ONLINE SHOP</a></li>
+                        </ul>
+                    </div>
+
+                    <a class="footer-secondrow-a" href="#service-f" data-bs-toggle="collapse">
+                        <div class="footer-secondrow-row">
+                            <p class="footer-secondrow-title">SERVICES</p>
+                            <p class="footer-secondrow-plus">+</p>
+                        </div>
+                    </a>
+
+                    <div class="footer-secondrow-row collapse" id="service-f" data-bs-parent=".footer-secondrow-div">
+                        <ul class="footer-secondrow-ul footer-inner-ul">
+                            <li><a class="footer-secondrow-a" href="#">SERVICE</a></li>
+                            <li><a class="footer-secondrow-a" href="#">YAMAHA APPS</a></li>
+                        </ul>
+                    </div>
+
+                    <a class="footer-secondrow-a" href="#partandaccessories-f" data-bs-toggle="collapse">
+                        <div class="footer-secondrow-row">
+                            <p class="footer-secondrow-title">PARTS</p>
+                            <p class="footer-secondrow-plus">+</p>
+                        </div>
+                    </a>
+
+                    <div class="footer-secondrow-row collapse" id="partandaccessories-f"
+                        data-bs-parent=".footer-secondrow-div">
+                        <ul class="footer-secondrow-ul footer-inner-ul">
+                            <li><a class="footer-secondrow-a" href="#">YAMAHA GENUINE PARTS</a>
+                            </li>
+                            <li><a class="footer-secondrow-a" href="#">YAMALUBE</a></li>
+                            <li><a class="footer-secondrow-a" href="#">HELMET</a></li>
+                            <li><a class="footer-secondrow-a" href="#">APPAREL</a></li>
+                            <li><a class="footer-secondrow-a" href="#">ACCESSORIES</a></li>
+                        </ul>
+                    </div>
+                    <a class="footer-secondrow-a" href="#">
+                        <div class="footer-secondrow-row">
+                            <p class="footer-secondrow-title">FILMS</p>
+                            <p class="footer-secondrow-plus"></p>
+                        </div>
+                    </a>
+
+                    <a class="footer-secondrow-a" href="#">
+                        <div class="footer-secondrow-row">
+                            <p class="footer-secondrow-title">RACING</p>
+                            <p class="footer-secondrow-plus"></p>
+                        </div>
+                    </a>
+
+                    <a class="footer-secondrow-a" href="#">
+                        <div class="footer-secondrow-row">
+                            <p class="footer-secondrow-title">MY YAMAHA MOTOR MEMBERS</p>
+                            <p class="footer-secondrow-plus"></p>
+                        </div>
+                    </a>
+
+                    <a class="footer-secondrow-a" href="#activity-f" data-bs-toggle="collapse">
+                        <div class="footer-secondrow-row">
+                            <p class="footer-secondrow-title">ACTIVITY</p>
+                            <p class="footer-secondrow-plus">+</p>
+                        </div>
+                    </a>
+                    <div class="footer-secondrow-row collapse" id="activity-f" data-bs-parent=".footer-secondrow-div">
+                        <ul class="footer-secondrow-ul footer-inner-ul">
+                            <li><a class="footer-secondrow-a" href="#">NEWS & EVENT</a></li>
+                            <li><a class="footer-secondrow-a" href="#">bLU cRU</a></li>
+                            <li><a class="footer-secondrow-a" href="#">COMMUNITY</a></li>
+                            <li><a class="footer-secondrow-a" href="#">JINGLE COMPETITION</a></li>
+                        </ul>
+                    </div>
+                    <a class="footer-secondrow-a" href="#">
+                        <div class="footer-secondrow-row">
+                            <p class="footer-secondrow-title">HELP CENTER</p>
+                            <p class="footer-secondrow-plus"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="footer-secondrow-contact show-ph-f">
+                    <a class="footer-secondrow-tel" href="#">
+                        <div class="footer-2ricon-out">
+                            <img class="footer-2ricon-in" src="assets/images/tel.png">
+                        </div>
+                        021 2457 5555
+                    </a>
+                    <a class="footer-secondrow-mail" href="#">
+                        <div class="footer-2ricon-out">
+                            <img class="footer-2ricon-in" src="assets/images/mail.png">
+                        </div>
+                        contact_center@yamaha-motor.co.id
+                    </a>
+                </div>
+                <div class="footer-secondrow-txt show-ph-f">
+                    <p class="footer-txt-big">PT. YAMAHA INDONESIA MOTOR MANUFACTURING</p>
+                    JL. DR KRT RADJIMAN WIDYODININGRAT RT/RW 009-06 RAWA TERATE, CAKUNG JAKARTA TIMUR 13920 INDONESIA
+                </div>
+            </div>
+            <div class="row footer-finalrow">
+                Copyright © 2023 Yamaha Indonesia Motor Mfg. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- script js default -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
